@@ -13,6 +13,33 @@
 
 
 
+.wpo-contact-map-section {
+    text-align: center; /* Centrează întregul conținut */
+    padding: 40px 0;    /* Adaugă puțin padding pentru a crea distanță */
+}
+
+.map-buttons {
+    display: flex;                /* Folosim Flexbox pentru aliniere */
+    justify-content: center;      /* Centrează butoanele pe orizontală */
+    gap: 20px;                    /* Spațiu între butoane */
+    margin-top: 20px;             /* Distanță între hartă și butoane */
+}
+
+.futuristic-btn {
+    padding: 12px 25px;           /* Mărimea butoanelor */
+    text-decoration: none;        /* Elimină sublinierea */
+    background-color: #007BFF;    /* Culoare fundal */
+    color: white;                 /* Culoare text */
+    border-radius: 5px;           /* Colțuri rotunjite */
+    font-size: 16px;              /* Mărimea textului */
+    text-align: center;           /* Aliniere text */
+    display: inline-block;        /* Asigură că butoanele sunt pe un singur rând */
+    transition: background-color 0.3s ease; /* Efect de tranziție */
+}
+
+.futuristic-btn:hover {
+    background-color: #0056b3;    /* Culoare fundal la hover */
+}
 
 
 
